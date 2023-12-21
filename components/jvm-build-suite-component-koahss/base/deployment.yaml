@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-koahss
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-izvm-tenant/jvm-build-suite-application-bnwa/jvm-build-suite-component-koahss@sha256:1ae3df1548956c132956e380c7a595ffbb34c3ec374ef6302fb10e08c24a1b6e
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
